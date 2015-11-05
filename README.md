@@ -11,9 +11,9 @@ git clone https://github.com/AT-Lab/Prove-Pulsanti
 ```
 e compilateli con gcc
 ```
-gcc -o Prova0 ProvaPulsanti0 -lwiringPi
-gcc -o Prova1 ProvaPulsanti1 -lwiringPi
-gcc -o Prova2 ProvaPulsanti2 -lwiringPi
+gcc -o Prova0 ProvaPulsanti0.c -lwiringPi
+gcc -o Prova1 ProvaPulsanti1.c -lwiringPi
+gcc -o Prova2 ProvaPulsanti2.c -lwiringPi
 ```
 e fate partire il file con permessi di amministratore.
 ```
